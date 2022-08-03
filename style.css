@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  min-height: 100vh;
+  background-color: black;
+}
+.top_bar {
+  width: 100%;
+  height: auto;
+  margin: 20px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo_cont {
+  width: auto;
+  height: 32px;
+  display: flex;
+  margin-left: 10px;
+}
+
+.logo {
+  width: auto;
+  height: 32px;
+}
+
+.botones_izq{
+  display:flex;
+  padding: 4px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.boton{
+  display:flex;
+  padding:4px;
+  margin: 5px;
+  font-family: "Source Sans Pro", sans-serif bold;
+  border-radius: 0px;
+  background: black;
+  border-color:white;
+  box-shadow: none; 
+  border: none;
+  border-radius: 999px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+
+}
+
+.boton:hover {
+  background-color: rgba(152, 152, 152, 0.635);
+}
+.botones_der{
+    display:flex;
+    padding: 4px;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    left: 80%;
+  }
+
+.img_der{
+    width: auto;
+    height: 32px; 
+}
+
+.img_der:hover{
+    filter:brightness(0.5); 
+    cursor:pointer;
+}
+.main_foto{
+    height: auto;
+    width: 100%;
+}
+
+.main_foto:hover{
+    filter:brightness(0.5); 
+    cursor:pointer;
+}
+.contenedor_foto{
+    position: relative;
+    text-align: center;
+    color: white;   
+}
+
+.nombre_lista_inicial{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif bold;
+    font-size: 20px;
+}
+
+.contenedor_listas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lista{
+    padding-bottom: 16px;
+    padding-right: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left; 
+}
+
+.pelis{
+        padding-bottom: 16px;
+        padding-left: 0px;
+        padding-right: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+}
+
+.pelis:hover{
+    filter:brightness(0.5); 
+    cursor:pointer;
+}
+.foto{
+    height: 100px;
+    width: auto;
+}
+
+.nombre_lista{
+    color: white;
+    font-family: "Source Sans Pro", sans-serif bold;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;   
+}
